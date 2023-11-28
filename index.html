@@ -5,27 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Ropa</title>
+    <style>
+        /* Estilo para el banner de presentación */
+        .banner {
+            background-image: url('imagenes/Captura de pantalla 2023-11-24 101814.png');
+            background-size: cover;
+            height: 300px; 
+            text-align: center;
+            color: #fff; 
+            padding: 50px; 
+        }
 
+        /* Estilo para los enlaces de navegación */
+        .nav-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .nav-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333; 
+        }
+    </style>
 </head>
 
 <body>
 
-    <div>
+    <div class="banner">
         <h1>Bienvenido a nuestra Tienda de Ropa</h1>
-        <img src="imagenes/Captura de pantalla 2023-11-24 101814.png" alt="">
-        <div style="text-align: center;">
-            <a href="#productos"> Productos</a>
-            <a href="#nosostros"> Nosotros</a>
-            <a href="#contacto"> Contacto</a>
-        </div>
-
     </div>
 
-    <div id="productos" style="position: absolute 5000px;">
-        <h2>Nuestros Productos</h2>
-        <a href="galeria.html"><img src="imagenes/galeria1.jpeg" alt=""></a>
-
+    <div class="nav-links">
+        <a href="galeria.html">Productos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
     </div>
+
 
     <div id="nosotros">
         <h2>Sobre Nosotros</h2>
