@@ -4,44 +4,71 @@
 <head>
     <title>Menu Example</title>
     <style>
-        ul.menu {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
+    body {
+        background-color: rgb(197, 191, 191);
+    }
+        
+    ul.menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }   
 
-        ul.menu li {
-            display: inline-block;
-            display: inline-block;
-        }
+    ul.menu li {
+        display: inline-block;
+        display: inline-block;
+    }
 
-        ul.menu li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
+    ul.menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
 
-        ul.menu li a:hover {
-            background-color: #ff00fb;
+    ul.menu li a:hover {
+        background-color: #ff00fb;
+    }
+
+    .moving-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        animation: moveLeftToRight 8s linear infinite;
+    }
+
+    @keyframes moveLeftToRight {
+        0% {
+            transform: translateX(0%);
         }
+        100% {  
+            transform: translateX(680%);
+        }
+    }
     </style>
 </head>
 
 <body>
+    <img class="moving-image" src="imagenes/logo.jpg" alt="Moving Image">
     <ul class="menu">
         <li><a href="proyecto1/proyecto1.html">Proyecto 1</a></li>
         <li><a href="proyecto2/proyecto2.html">Proyecto 2</a></li>
+    </ul>
+
+    
+    
+        
     </ul>
 </body>
 
