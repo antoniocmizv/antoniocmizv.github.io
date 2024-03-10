@@ -25,3 +25,29 @@ El proyecto se ha desarrollado utilizando HTML para la estructura básica de las
 Antonio Castillo ha trabajado en colaboración con diseñadores gráficos y expertos en experiencia de usuario para garantizar que la tienda cumpla con altos estándares de calidad. Además, se planea realizar mejoras continuas, como la implementación de funciones de búsqueda avanzada y la expansión del catálogo de productos.
 
 Este proyecto refleja el compromiso de Antonio Castillo con el desarrollo web de alta calidad y la creación de experiencias de usuario atractivas en el mundo del comercio electrónico de moda.
+
+## Proyecto HTML: Portfolio de un Programador
+
+### Descripción del Proyecto
+
+Este proyecto HTML tiene como objetivo presentar el portfolio de un programador, mostrando sus habilidades, proyectos destacados y experiencia laboral. El objetivo principal es proporcionar a los visitantes una visión completa de las capacidades y logros del programador.
+
+### Características Principales
+
+1. Sección de Habilidades: El portfolio incluye una sección dedicada a mostrar las habilidades del programador, como los lenguajes de programación dominados, las tecnologías utilizadas y las metodologías de desarrollo.
+
+2. Proyectos Destacados: Se muestra una selección de los proyectos más destacados del programador, con descripciones breves y enlaces a los repositorios o sitios web correspondientes.
+
+3. Experiencia Laboral: Se incluye una sección que detalla la experiencia laboral del programador, destacando los roles desempeñados, las responsabilidades y los logros obtenidos en cada posición.
+
+4. Información de Contacto: Se proporciona información de contacto del programador, como dirección de correo electrónico y enlaces a perfiles en redes sociales o plataformas profesionales.
+
+### Tecnologías Utilizadas
+
+El proyecto se ha desarrollado utilizando HTML y CSS para la estructura y el diseño del portfolio. Se han aplicado técnicas de diseño responsivo para garantizar una visualización óptima en diferentes dispositivos.
+
+### Colaboración y Futuras Mejoras
+
+El portfolio ha sido creado en colaboración con el programador para asegurar que refleje de manera precisa sus habilidades y logros. Se planea realizar mejoras continuas, como la adición de nuevos proyectos y la actualización de la información de contacto.
+
+Este proyecto demuestra la dedicación del programador a su carrera y su capacidad para crear un portfolio atractivo y profesional que destaque sus habilidades y experiencia en el campo de la programación.
