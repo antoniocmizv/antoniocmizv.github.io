@@ -81,12 +81,12 @@
             align-items: center;
             justify-content: center;
         }
-        
+
         .project {
             margin-bottom: 20px;
             border: 1px solid #ccc;
             padding: 20px;
-            background-color: #fff;
+            background-color: #bebebe;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
@@ -103,6 +103,61 @@
 
         .project img {
             max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;  
+        }
+
+        form label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        form input[type="text"],
+        form input[type="email"],
+        form textarea {
+            width: 70%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #555;
+        }
+        .gallery {
+            margin-top: 50px;
+        }
+
+        .gallery h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .gallery-image {
+            width: 30%;
             height: auto;
             margin-bottom: 10px;
         }
@@ -140,7 +195,9 @@
 
     <section id="projects">
         <h2>Proyectos</h2>
-        <a href="https://github.com/antoniocmizv"><img src="imagenes/github.png" alt="github" class="img-icons"></a>
+        <p>Aquí podemos encontar todos mis proyectos</p>
+        <a href="https://github.com/antoniocmizv"><img src="imagenes/github.png" alt="github" class="img-icons" ></a>
+
         <div class="project">
             <h3>Sistema de Gestión de productos</h3>
             <p>En este proyecto se realizo una aplicación en Java y Sql en la que se controla el inventario de un
@@ -154,10 +211,31 @@
             <h3>Proyecto 3</h3>
             <p>Descripción del proyecto 3</p>
         </div>
+        <div class="gallery">
+            <h3>Galería de Imágenes</h3>
+            <div class="image-container">
+                <img src="imagenes/galeria1.jpeg" alt="Imagen 1" class="gallery-image">
+                <img src="imagenes/galeria2.jpeg" alt="Imagen 2" class="gallery-image">
+                <img src="imagenes/galeria3.jpeg" alt="Imagen 3" class="gallery-image">
+               
+            </div>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
         <p>Mis redes sociales:</p>
         <div>
             <a href="https://www.instagram.com/elonmuskxspac/"> <img src="imagenes/instagram.jpg" alt=""
